@@ -1,5 +1,5 @@
-import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import axios from "axios";
+import { createAsyncThunk, createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { AirQualityData, WeatherState } from "../Types/Type";
 
 const API_KEY = process.env.REACT_APP_API_KEY;
